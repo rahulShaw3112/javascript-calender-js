@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calender - <span id='curr-month'></span></h1>
+    <br>
+    <button id="prev-month">Prev</button>
+    <button id="next-month">Next</button>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thur</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <h2>Add new Event</h2>
+    <input type="text" placeholder="Add event title" id="event-title">
+    <button id="event-add-button">Add</button>
+    <h2>Current Events</h2>
+    <ul id="current-event-list"></ul>
+    <br>
+    <script src="./index.js"></script>
+</body>
+</html>

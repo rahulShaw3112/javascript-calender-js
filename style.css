@@ -1,0 +1,13 @@
+td.day {
+    width: 50px;
+    text-align: center;
+
+}
+
+.curr-day {
+    background-color: burlywood;
+}
+
+td.day.selected {
+    border: 2px dashed blue;
+}
